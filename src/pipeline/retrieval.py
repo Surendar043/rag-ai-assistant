@@ -2,7 +2,7 @@
 
 from typing import List, Dict, Optional
 from src.pipeline.vector_store import VectorStore
-from config.settings import settings
+from src.config.settings import settings
 
 
 class Retriever:

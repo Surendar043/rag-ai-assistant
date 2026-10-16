@@ -5,7 +5,7 @@ from src.api.schemas.models import IngestRequest, IngestResponse
 from src.pipeline.chunking import chunk_documents
 from src.pipeline.vector_store import VectorStore
 from src.models.embedding_model import EmbeddingModel
-from config.settings import settings
+from src.config.settings import settings
 
 router = APIRouter()
 

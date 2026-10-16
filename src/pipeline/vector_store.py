@@ -5,7 +5,7 @@ import json
 from typing import List, Dict, Optional
 import numpy as np
 import faiss
-from config.settings import settings
+from src.config.settings import settings
 
 
 class VectorStore:

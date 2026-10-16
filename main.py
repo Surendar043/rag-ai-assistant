@@ -6,7 +6,7 @@ from src.pipeline.generation import Generator
 from src.models.embedding_model import EmbeddingModel
 from src.models.llm import LLM
 from src.agent.graph import run_agent
-from config.settings import settings
+from src.config.settings import settings
 
 
 def main():

@@ -2,7 +2,7 @@
 
 from typing import List, Dict
 from src.models.llm import LLM
-from config.settings import settings
+from src.config.settings import settings
 
 
 def build_prompt(query: str, contexts: List[Dict]) -> str:

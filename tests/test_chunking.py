@@ -4,7 +4,7 @@ from src.pipeline.chunking import chunk_text, chunk_documents
 
 
 def test_chunk_text_basic():
-    text = "word " * 100
+    text = "word " * 600
     chunks = chunk_text(text, source="test.txt")
     assert len(chunks) > 1
     assert all(c["source"] == "test.txt" for c in chunks)

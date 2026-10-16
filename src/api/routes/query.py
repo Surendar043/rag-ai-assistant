@@ -8,7 +8,7 @@ from src.pipeline.vector_store import VectorStore
 from src.models.embedding_model import EmbeddingModel
 from src.models.llm import LLM
 from src.pipeline.generation import Generator
-from config.settings import settings
+from src.config.settings import settings
 
 router = APIRouter()
 
