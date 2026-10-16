@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ec1",
+    "question": "",
+    "expected_behavior": "graceful_error"
+  },
+  {
+    "id": "ec2",
+    "question": "asdfghjkl qwertyuiop zxcvbnm",
+    "expected_behavior": "no_hallucination"
+  },
+  {
+    "id": "ec3",
+    "question": "Tell me about a completely unrelated topic that is not in the documents",
+    "expected_behavior": "say_i_dont_know"
+  },
+  {
+    "id": "ec4",
+    "question": "   ",
+    "expected_behavior": "graceful_error"
+  }
+]
